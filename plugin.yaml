@@ -1,0 +1,27 @@
+id: "synology_chat"
+name: "synology_chat"
+version: "1.0.0"
+description: "Synology Chat Platform Adapter for Hermes Agent via Webhook and External Chat API."
+author: "Community"
+
+requires_env:
+  - name: "SYNOLOGY_CHAT_TOKEN"
+    description: "The Bot Token provided by Synology Chat"
+    secret: true
+  - name: "SYNOLOGY_CHAT_API_ENDPOINT"
+    description: "The NAS External API URL (e.g., https://nas-ip:5001/webapi/entry.cgi)"
+    secret: false
+
+optional_env:
+  - name: "SYNOLOGY_CHAT_HOST"
+    description: "Listen address for webhook server"
+    default: "0.0.0.0"
+  - name: "SYNOLOGY_CHAT_PORT"
+    description: "Listen port for webhook server"
+    default: "8086"
+  - name: "SYNOLOGY_CHAT_SSL_VERIFY"
+    description: "Verify Synology SSL certificate (true/false)"
+    default: "false"
+  - name: "SYNOLOGY_CHAT_HOME_CHANNEL"
+    description: "Default user_id for cron or standalone system alerts"
+    default: ""
