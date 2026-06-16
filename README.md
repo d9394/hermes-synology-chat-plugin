@@ -49,6 +49,7 @@
   
 ### notice:   
 -- if you want not use config.yaml, you can also setting .env with all config parameters like there:   
+
       ```javascript
       # 只有在你不使用 config.yaml 时，才需要配置以下变量：
       SYNOLOGY_CHAT_TOKEN=vo3n8zjl6REDIAJkLttuR2NSHnaNl7SXJ
