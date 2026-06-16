@@ -23,7 +23,7 @@
       ```   
       
   4. modify ~/.hermes/.env like these:
-      ```
+      ```javascript
       # ==========================================
       # 选项 A：允许特定群晖用户（推荐）
       # ==========================================
@@ -49,14 +49,14 @@
   
 ### notice:   
 -- if you want not use config.yaml, you can also setting .env with all config parameters like there:   
-      ```
-    # 只有在你不使用 config.yaml 时，才需要配置以下变量：
-    SYNOLOGY_CHAT_TOKEN=vo3n8zjl6REDIAJkLttuR2NSHnaNl7SXJ
-    SYNOLOGY_CHAT_API_ENDPOINT=http://192.168.1.1:5000/webapi/entry.cgi?api=SYNO.Chat.External&method=chatbot&version=2&token=%22vo3n8zjl6REv0sUoCkAQuSXJ%22
-    SYNOLOGY_CHAT_HOST=0.0.0.0
-    SYNOLOGY_CHAT_PORT=8086
-    SYNOLOGY_CHAT_SSL_VERIFY=false
-    SYNOLOGY_CHAT_WEBHOOK_PATH=/synology-chat/webhook
+      ```javascript
+      # 只有在你不使用 config.yaml 时，才需要配置以下变量：
+      SYNOLOGY_CHAT_TOKEN=vo3n8zjl6REDIAJkLttuR2NSHnaNl7SXJ
+      SYNOLOGY_CHAT_API_ENDPOINT=http://192.168.1.1:5000/webapi/entry.cgi?api=SYNO.Chat.External&method=chatbot&version=2&token=%22vo3n8zjl6REv0sUoCkAQuSXJ%22
+      SYNOLOGY_CHAT_HOST=0.0.0.0
+      SYNOLOGY_CHAT_PORT=8086
+      SYNOLOGY_CHAT_SSL_VERIFY=false
+      SYNOLOGY_CHAT_WEBHOOK_PATH=/synology-chat/webhook
       ```   
 
       
