@@ -48,7 +48,7 @@
   5. restart hermes-agent
   
 ### notice:   
-  if you want not use config.yaml, you can also setting .env with all config parameters like there:   
+--  if you want not use config.yaml, you can also setting .env with all config parameters like there:   
 
       ```javascript
       # 只有在你不使用 config.yaml 时，才需要配置以下变量：
@@ -59,5 +59,8 @@
       SYNOLOGY_CHAT_SSL_VERIFY=false
       SYNOLOGY_CHAT_WEBHOOK_PATH=/synology-chat/webhook
       ```   
+-- a manual from synology KB
+  https://kb.synology.com/sv-se/DSM/help/Chat/chat_integration?version=7   
+  
 
       
