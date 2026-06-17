@@ -61,6 +61,11 @@
       ```   
 -- a manual from synology KB
   https://kb.synology.com/sv-se/DSM/help/Chat/chat_integration?version=7   
+
+-- synology chat server spk download:   
+  https://archive.synology.com/download/Package/Chat/   
+
+-- 
   
 
       
