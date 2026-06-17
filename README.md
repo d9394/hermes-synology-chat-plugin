@@ -59,7 +59,7 @@
       SYNOLOGY_CHAT_SSL_VERIFY=false
       SYNOLOGY_CHAT_WEBHOOK_PATH=/synology-chat/webhook
       ```   
--- a manual from synology KB
+-- a manual from synology KB   
   https://kb.synology.com/sv-se/DSM/help/Chat/chat_integration?version=7   
 
 -- synology chat server spk download:   
