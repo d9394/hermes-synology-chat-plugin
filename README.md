@@ -5,7 +5,8 @@
 ### usage:   
   1. create dirctory in ~/.hermes/plugins, such as : ~/.hermes/plugins/synology-chat
      
-  2. place files into ~/.hermes/plugins/synology-chat: __init__.py plugin.yaml adapter.py
+  2. place files into ~/.hermes/plugins/synology-chat:
+        __init__.py plugin.yaml adapter.py
      
   3. modify ~/.hermes/config.yaml like these:
      
