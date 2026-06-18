@@ -1,6 +1,10 @@
 ## hermes agent plugin for synology-chat   
 
 --- 
+
+### this is only a plugin, not any modify hermes codes
+
+--
   
 ### usage:   
   1. create dirctory in ~/.hermes/plugins, such as : ~/.hermes/plugins/synology-chat
